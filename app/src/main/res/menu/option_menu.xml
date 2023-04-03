@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Back color"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/style">
+        <menu>
+            <item
+                android:id="@+id/op_style_night"
+                android:title="Night"/>
+            <item
+                android:id="@+id/op_style_white"
+                android:title="White"/>
+            <item
+                android:id="@+id/op_style_sepia"
+                android:title="Sepia"/>
+        </menu>
+    </item>
+    <item
+        android:title="Font Size"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/font">
+        <menu>
+            <item
+                android:id="@+id/op_font_12"
+                android:title="12"/>
+            <item
+                android:id="@+id/op_font_14"
+                android:title="14"/>
+            <item
+                android:id="@+id/op_font_18"
+                android:title="18"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Menu Viewer</string>
+    <string name="vertical_option">vertical</string>
+    <string name="horizontal_option">horizontal</string>
+    <string-array name="actions">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>
